@@ -5,7 +5,8 @@ source 'https://TransfarMobile@github.com/TransfarMobile/TFSpecs.git'
 source 'https://github.com/CocoaPods/Specs.git'
 
 target 'A' do
-  # Uncomment this line if you're using Swift or would like to use dynamic frameworks
+  pod "CTMediator"
+  pod "HandyFrame"
   # use_frameworks!
  
 end
